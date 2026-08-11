@@ -986,6 +986,11 @@
             Read publication
             <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l8-8M4 2h6v6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
+          &nbsp;
+          <a href="#contact">
+            Request copy
+            <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l8-8M4 2h6v6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
         </p>
       `;
     }
