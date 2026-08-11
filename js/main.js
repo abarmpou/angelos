@@ -450,21 +450,21 @@
       tag: "Telehealth XR",
       title: "XR for Home Exercise After Joint Replacement",
       desc: "Integrated telehealth and extended reality to enhance home exercise adherence following total hip and knee arthroplasty.",
-      img: "../assets/conroy2025integrated.jpg",
+      img: "assets/conroy2025integrated.jpg",
       href: "https://doi.org/10.1109/VRW66409.2025.00195"
     },
     {
       tag: "AI + Dance",
       title: "Real-Time Afrogenic Dance Move Recognition",
       desc: "AI-driven recognition and attribution of Afrogenic dance movements, presented at ACM IMX 2026 and funded by the Robert Wood Johnson Foundation.",
-      img: "../assets/pank2026real.jpg",
+      img: "assets/pank2026real.jpg",
       href: "https://dl.acm.org/doi/10.1145/3788851.3805020"
     },
      {
       tag: "3D Digitization",
       title: "3D Digitization of the Rosetta Stone",
       desc: "3D scanning and reconstruction of the Rosetta Stone for the British Museum, part of the long-running Digital Epigraphy and Archaeology initiative.",
-      img: "../assets/amin2023digital.jpg",
+      img: "assets/amin2023digital.jpg",
       href: "https://www.digitalepigraphy.org/page/3d-scanning-the-rosetta-stone/"
     },
 
@@ -472,7 +472,7 @@
       tag: "VR for Museums",
       title: "Enhancing Museum Experience with VR",
       desc: "Situating 3D museum collections in context to deepen learning and engagement for young visitors.",
-      img: "../assets/delgado2024enhancing.jpg",
+      img: "assets/delgado2024enhancing.jpg",
       href: "https://doi.org/10.1145/3628516.3659372"
     },
 
@@ -480,7 +480,7 @@
       tag: "Digital Heritage",
       title: "Digital Epigraphy Toolbox",
       desc: "An NEH-funded, internationally adopted toolbox for 3D digitization, UV-map estimation, and analysis of ancient inscriptions.",
-      img: "../assets/barmpoutis2013digital.jpg",
+      img: "assets/barmpoutis2013digital.jpg",
       href: "https://www.digitalepigraphy.org/"
     },
 
@@ -488,7 +488,7 @@
       tag: "Passive Haptics",
       title: "Passive Haptics &amp; Physical Object Interaction in VR",
       desc: "Studying how interacting with physical objects inside virtual environments affects knowledge acquisition, recall, and perception.",
-      img: "../assets/barmpoutis2020virtual.jpg",
+      img: "assets/barmpoutis2020virtual.jpg",
       href: "https://doi.org/10.1007/978-3-030-50729-9_20"
     },
     
@@ -496,21 +496,21 @@
       tag: "Patented Invention",
       title: "Tensor Body — Real-Time Avatar Synthesis",
       desc: "Real-time reconstruction of the human body and automated avatar synthesis from low-cost depth sensors — U.S. Patent 10,121,273 B2.",
-      img: "../assets/barmpoutis2018real.png",
+      img: "assets/barmpoutis2018real.png",
       href: "https://patents.google.com/patent/US10121273B2/en"
     },
     {
       tag: "Biomedical AI",
       title: "Automated Imaging Differentiation for Parkinsonism",
       desc: "A 21-site clinical AI platform for differentiating Parkinsonism subtypes from MRI, published in JAMA Neurology and commercialized via neuropacs.",
-      img: "../assets/vaillancourt2025automated.png",
+      img: "assets/vaillancourt2025automated.png",
       href: "https://neuropacs.com"
     },
     {
       tag: "Education & Games",
       title: "Saving Lives With Coding",
       desc: "The global impact of an undergraduate coding project built with the UF Literacy Institute, used more than 150,000 times per day across 27 states.",
-      img: "../assets/barmpoutis2024saving.png",
+      img: "assets/barmpoutis2024saving.png",
       href: "https://doi.org/10.33424/FUTURUM547"
     }
   ];
