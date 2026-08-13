@@ -312,6 +312,7 @@
   function createIncrementalRenderer({ listEl, moreWrapEl, renderItem, batchSize, noun }) {
     let items = [];
     let shown = 0;
+    let renderedNodes = [];
 
     function renderButton(focusIt) {
       moreWrapEl.innerHTML = "";
@@ -337,11 +338,19 @@
     }
 
     function renderBatch(focusButtonAfter) {
-      const next = items.slice(shown, shown + batchSize);
-      const frag = document.createDocumentFragment();
-      next.forEach((item) => frag.appendChild(renderItem(item)));
-      listEl.appendChild(frag);
-      shown += next.length;
+      const nextCount = Math.min(batchSize, items.length - shown);
+      if (nextCount <= 0) {
+        renderButton(focusButtonAfter);
+        return;
+      }
+
+      for (let i = shown; i < shown + nextCount; i++) {
+        if (renderedNodes[i]) {
+          renderedNodes[i].style.display = "";
+        }
+      }
+
+      shown += nextCount;
       renderButton(focusButtonAfter);
     }
 
@@ -349,8 +358,20 @@
       setItems(newItems) {
         items = newItems;
         shown = 0;
+        renderedNodes = [];
         listEl.innerHTML = "";
-        renderBatch(false);
+
+        const frag = document.createDocumentFragment();
+        items.forEach((item, index) => {
+          const el = renderItem(item);
+          renderedNodes.push(el);
+          el.style.display = index < batchSize ? "" : "none";
+          frag.appendChild(el);
+        });
+
+        listEl.appendChild(frag);
+        shown = Math.min(batchSize, items.length);
+        renderButton(false);
       }
     };
   }
@@ -552,22 +573,22 @@
     { amount: "$1,647,650", title: "Clinical performance testing of neuropacs™ in Parkinsonism diagnosis", meta: "NIH NIA/NINDS 2R42NS132614-02 · PI · Sept 2024 – Aug 2026" },
     { amount: "$392,605", title: "Collaborative Research: 3D Visualization of Dentofacial Development in Primates", meta: "NSF 2235578 · Senior Faculty · May 2023 – Apr 2026" },
     { amount: "$400,000", title: "Intersections on Technology, Space, and Time", meta: "Andrew W. Mellon Foundation · co-Investigator · Aug 2018 – Aug 2021" },
-    { amount: "$4,777,251", title: "Web-based Automated Imaging Differentiation of Parkinsonism", meta: "NIH U01 NS119562-01 · Multi-PI · Apr 2021 – Mar 2026" },
-    { amount: "$132,972", title: "Investigating the Effect of Drivers' Body Motion on Traffic Safety", meta: "US DOT / STRIDE 2013-051S · PI · Sept 2013 – June 2015" },
-    { amount: "$421,788", title: "Dysmetria & Motor Function in SCA: Mechanisms and Rehabilitation", meta: "NIH-NINDS R21 NS094946 · Investigator · Sept 2015 – Aug 2018" },
     { amount: "$87,000", title: "K3D: An Augmented-Reality Distance Education Classroom", meta: "UF Office of the CIO · PI · May 2012 – May 2013" },
-    { amount: "$70,000", title: "3D Digitization of the Squeeze Collection, University of Venice", meta: "Ca' Foscari University of Venice (Digital Epigraphy Toolbox) · Consultant · June 2017 – May 2019" },
-    { amount: "$53,500", title: "E-STAMPAGES", meta: "French Ministry of Higher Education, BSN5 2014 · Consultant · Jan 2015 – June 2016" },
-    { amount: "$50,000", title: "AI-driven Movement Classification and Analysis across Clinical and Cultural Application Areas", meta: "UF AI Catalyst Fund · PI · Jan – Dec 2021" },
-    { amount: "$50,000", title: "Digital Epigraphy Toolbox", meta: "National Endowment for the Humanities, HD-51214-11 · Project Director · June 2011 – Dec 2012" },
     { amount: "$48,943", title: "Novel framework for physical tele-therapy using infrared depth sensors and haptic feedback", meta: "UF Informatics Institute Seed Fund · PI · Sept 2014 – Sept 2015" },
+    { amount: "$50,000", title: "AI-driven Movement Classification and Analysis across Clinical and Cultural Application Areas", meta: "UF AI Catalyst Fund · PI · Jan – Dec 2021" },
     { amount: "$20,000", title: "Development of interactive 3D multimedia visualization", meta: "Intel, Inc. (corporate gift) · Dec 2015 – May 2016" },
     { amount: "$16,500", title: "Consumer Video Product for the Monster Jam Ride Truck", meta: "FELD Entertainment · PI · Aug 2019 – Aug 2020" },
     { amount: "$16,500", title: "Virtual Reality: A Next-Generation Tool to Improve Waste and Materials Management", meta: "PTP Strategies, LLC · PI · Aug 2019 – Aug 2020" },
+    { amount: "$7,500", title: "Game technology to enhance sensory input and promote walking recovery", meta: "UF CTSI / NIH · co-Investigator · Mar 2011 – Mar 2012" },
+    { amount: "$4,777,251", title: "Web-based Automated Imaging Differentiation of Parkinsonism", meta: "NIH U01 NS119562-01 · Multi-PI · Apr 2021 – Mar 2026" },
+    { amount: "$132,972", title: "Investigating the Effect of Drivers' Body Motion on Traffic Safety", meta: "US DOT / STRIDE 2013-051S · PI · Sept 2013 – June 2015" },
+    { amount: "$421,788", title: "Dysmetria & Motor Function in SCA: Mechanisms and Rehabilitation", meta: "NIH-NINDS R21 NS094946 · Investigator · Sept 2015 – Aug 2018" },
+    { amount: "$70,000", title: "3D Digitization of the Squeeze Collection, University of Venice", meta: "Ca' Foscari University of Venice (Digital Epigraphy Toolbox) · Consultant · June 2017 – May 2019" },
+    { amount: "$53,500", title: "E-STAMPAGES", meta: "French Ministry of Higher Education, BSN5 2014 · Consultant · Jan 2015 – June 2016" },
+    { amount: "$50,000", title: "Digital Epigraphy Toolbox", meta: "National Endowment for the Humanities, HD-51214-11 · Project Director · June 2011 – Dec 2012" },
     { amount: "$16,500", title: "CDD-SORT: ML System to Detect Recyclable/Problematic Materials in Construction Debris", meta: "PTP Strategies / EPA SBIR · Faculty coach/consultant · Aug 2018 – Aug 2019" },
-    { amount: "$16,500", title: "Central Office Visually Enhanced Asset Tracking and Management System", meta: "Verizon, Inc. · PI · Aug 2017 – Aug 2018" },
-    { amount: "$7,500", title: "Game technology to enhance sensory input and promote walking recovery", meta: "UF CTSI / NIH · co-Investigator · Mar 2011 – Mar 2012" }
-  ];
+    { amount: "$16,500", title: "Central Office Visually Enhanced Asset Tracking and Management System", meta: "Verizon, Inc. · PI · Aug 2017 – Aug 2018" }
+    ];
 
   const awardsTimeline = [
     { year: "2026", title: "Provost's Commendation for Outstanding Teaching Evaluations" },
