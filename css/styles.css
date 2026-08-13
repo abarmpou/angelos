@@ -1202,6 +1202,17 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
 /* =========================================================
    NEWS TIMELINE
    ========================================================= */
+.news__grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.news__column,
+.news__gallery { min-width: 0; }
+@media (min-width: 900px) {
+  .news__grid { grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr); }
+}
+
 .news-timeline { position: relative; padding-left: 1.5rem; max-width: 46rem; }
 .news-timeline::before {
   content: "";
@@ -1237,6 +1248,32 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
   font-size: 0.82rem;
   color: var(--text-faint);
   font-style: italic;
+}
+
+.news__gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.news-gallery__item {
+  margin: 0;
+  padding: 0.8rem;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+}
+.news-gallery__item img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: calc(var(--radius-md) - 2px);
+}
+.news-gallery__item figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--text-faint);
 }
 
 /* =========================================================
