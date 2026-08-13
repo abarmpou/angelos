@@ -596,13 +596,31 @@
   const newsItems = [
     {
       year: "October 2026",
-      title: "Our team will present the panel: Artists as Architects of Future Tech: A Look at the Interdisciplinary Atunda Project",
+      title: "Our team will present the panel: Artists as Architects of Future Tech: A Look at the Interdisciplinary Atunda Project.",
       source: "2026 a2ru Conference: \"How We Thrive: Arts, Health and Human Flourishing\"",
       href: "https://a2ru.org/event/2026-a2ru-conference-how-we-thrive-arts-health-and-human-flourishing/"
     },
     {
+      year: "August 2026",
+      title: "Congratulations to my students from the Master in Digital Arts and Sciences program for presenting their research on HCII 2026.",
+      source: "International Conference on Human-Computer Interaction (HCII 2026)",
+      href: "https://doi.org/10.1007/978-3-032-30816-0_11"  
+    },
+    {
+      year: "July 2026",
+      title: "Honored to have contributed to a new edited volume published today by Oxford University Press on Digital Classical Studies.",
+      source: "Oxford University Press",
+      href: "https://doi.org/10.1093/9780197835210.003.0032"  
+    },
+     {
+      year: "June 2026",
+      title: "Congratulations to my students T.Pank and D.Carrascosa for presenting our research at ACM IMX.",
+      source: "ACM Conference on Interactive Media Experiences 2026",
+      href: "https://doi.org/10.1145/3788851.380502"  
+    },
+    {
       year: "April 2026",
-      title: "Prof. Barmpoutis will present the keynote speech at the Nucleate Florida’s AI in Biotech event.",
+      title: "Prof. Barmpoutis presented the keynote speech on technology transfer and entrepreneurship at the Nucleate Florida’s AI in Biotech event.",
       source: "Nucleate.org",
       href: "https://nucleate.org/"
     },
@@ -611,6 +629,18 @@
       title: "Prof. Barmpoutis delivered an invited lecture at the University of Chicago.",
       source: "University of Chicago",
       href: "https://www.uchicago.edu/"
+    },
+    {
+      year: "March 2025",
+      title: "Prof. Barmpoutis and Qudus Onikeku were interviewed for a Medium article on the Atunda dance move project.",
+      source: "Medium",
+      href: "https://medium.com/whats-next-health/5-questions-for-qudus-onikeku-and-angelos-barmpoutis-7988e3beaeb8/"
+    },
+    {
+      year: "February 2024",
+      title: "Prof. Barmpoutis deliverd an invited lecture on 'Investigating human behavior using passive haptics & motion tracking in extended reality environments' at the department of Applied Physiology and Kinesiology.",
+      source: "College of Health and Human Performance",
+      href: "https://hhp.ufl.edu/"
     }
   ];
 
