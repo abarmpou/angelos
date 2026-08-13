@@ -631,6 +631,12 @@
       href: "https://www.uchicago.edu/"
     },
     {
+      year: "October 2025",
+      title: "Prof. Barmpoutis was  honored at the third annual #InnOvationShowcase2025 with the license plate INNOV8R, which is given to UF researchers whose disclosed inventions have been officially licensed by a company. ",
+      source: "UF Center for the Arts, Migration, and Enterpreneurship",
+      href: "https://www.instagram.com/p/DQwovkaj3ca/"
+    },
+    {
       year: "March 2025",
       title: "Prof. Barmpoutis and Qudus Onikeku were interviewed for a Medium article on the Atunda dance move project.",
       source: "Medium",
@@ -904,6 +910,7 @@
           venue: formatVenue(entry),
           type,
           link: pubLink(entry),
+          academia: entry.academia || null,
           citationKeys: entry.citations || [],
           // Optional fields — present only once added to publications.json;
           // the UI degrades gracefully when they're absent.
@@ -1010,19 +1017,32 @@
     }
 
     if (p.link) {
-      bodyHtml += `
+      let links="";
+      links += `
         <p class="pub-item__view-link">
           <a href="${p.link}" target="_blank" rel="noopener noreferrer">
             Read publication
             <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l8-8M4 2h6v6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
+          </a>`;
+      if (p.academia) {
+        links += `
           &nbsp;
+          <a href="${p.academia}" target="_blank" rel="noopener noreferrer">
+            Academia
+            <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l8-8M4 2h6v6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        `;
+      }
+      links +=`  
+      &nbsp;
           <a href="#contact">
             Request copy
             <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10l8-8M4 2h6v6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
+          </a>  
         </p>
       `;
+      bodyHtml += links;
+
     }
 
     body.innerHTML = bodyHtml;

@@ -28,7 +28,8 @@
         "doi": "https://doi.org/10.1007/978-3-032-30816-0_11",
         "abstract":"Natural locomotion in large-scale virtual reality (VR) environments remains challenging due to the limited physical space available to users. Although technologies such as omni-directional treadmills and locomotion pads offer promising solutions, they remain experimental and their cost is still prohibitive for mainstream use. Common UI-based navigation techniques such as teleportation or artificial locomotion can mitigate these constraints but often feel unnatural and may induce motion sickness. This paper investigates VR spatial configurations that enable continuous walking experiences within constrained real-world areas. We focus on an approach that maps a linear path into a circular layout, forming the basis for an endless-runner–style environment that supports uninterrupted locomotion. We developed a set of VR experiments to examine how users’ behaviors are influenced by the topology of the environment such as the presence of virtual boundaries (walls and barriers), elevation changes (including slopes and steps), and how their perceptions are shaped by the physical constraints of the real world. We further explore users’ spatial and distance perception, their sensory and immersive experience, and to what degree they experience motion sickness. A user study was designed using pre- and post-experience surveys as well as observational data to be collected during the VR sessions.",
         "image":"assets/tian2026circular.png",
-        "feature":98
+        "feature":98,
+        "academia":"https://www.academia.edu/171745586/Circular_Path_VR_Environments_for_Continuous_Locomotion"
       }
     },
     {
@@ -43,7 +44,8 @@
         "citations": [],
         "doi": "https://doi.org/10.1093/9780197835210.003.0032",
         "image":"assets/barmpoutis2026260.jpg",
-        "abstract":"This chapter provides an overview of the field of digital epigraphy, including its history and current practices. Like most fields of study, epigraphy has been significantly transformed by the use of digital methods, which have improved or fundamentally altered traditional approaches to preserving, studying, analyzing, and disseminating historical epigraphic records. One of the key outcomes of this digital transformation is the ability to interconnect and highlight the multimodal nature of an epigraphic record. Such a record consists not only of a visual or textual message inscribed onto an object but also encompasses the object itself and metadata that describe the context of the inscription—both past and present. Several technological advances have enabled the collection and curation of this integrated epigraphic record, particularly in the domains of text encoding, 2D and 3D scanning, and data analysis using machine learning and other methods. Finally, this chapter discusses the broader impacts of digital epigraphy, with an emphasis on collaborative projects that contribute to the creation of public databases that not only facilitate scholarly work and new academic discoveries but also make this important historical record accessible to the general public."
+        "abstract":"This chapter provides an overview of the field of digital epigraphy, including its history and current practices. Like most fields of study, epigraphy has been significantly transformed by the use of digital methods, which have improved or fundamentally altered traditional approaches to preserving, studying, analyzing, and disseminating historical epigraphic records. One of the key outcomes of this digital transformation is the ability to interconnect and highlight the multimodal nature of an epigraphic record. Such a record consists not only of a visual or textual message inscribed onto an object but also encompasses the object itself and metadata that describe the context of the inscription—both past and present. Several technological advances have enabled the collection and curation of this integrated epigraphic record, particularly in the domains of text encoding, 2D and 3D scanning, and data analysis using machine learning and other methods. Finally, this chapter discusses the broader impacts of digital epigraphy, with an emphasis on collaborative projects that contribute to the creation of public databases that not only facilitate scholarly work and new academic discoveries but also make this important historical record accessible to the general public.",
+        "academia":"https://www.academia.edu/171745011/Epigraphy_Going_Digital_Tools_and_Methods"
       }
     },
     {
@@ -84,7 +86,8 @@
         "doi": "https://doi.org/10.1109/VRW66409.2025.00195",
         "abstract": "Nearly one million total hip and knee arthroplasties (THA/TKA) are performed annually in the United States, with most patients discharged home and prescribed home exercise programs (HEPs) to enhance lower extremity function. Traditional paper-based HEPs, while accessible and low-cost, often lack engagement and real-time feedback, which are critical for adherence and performance optimization. Extended reality (XR) and telehealth (TH) systems offer promising solutions, combining engagement and feedback, though each has limitations. To address these gaps, we designed and executed a pilot study that compared exercise performance in individuals with THA/TKA using a conventional paper-based HEP versus a proof-of-concept system, dubbed Tele-PhyT, that included the ideal characteristics of a future XR technology that would enable seamless HEP-TH systems, with robust marker-less full body tracking, real-time visual feedback, and performance quantification. The pilot study used a randomized cross-over design and targeted two types of users: therapists and patients. Participants favored Tele-PhyT for its real-time feedback and ease of use, and noted its potential to improve HEP adherence and exercise accuracy.",
         "image":"assets/conroy2025integrated.jpg",
-        "feature":96
+        "feature":96,
+        "academia":"https://www.academia.edu/171745721/Integrated_Telehealth_and_Extended_Reality_to_Enhance_Home_Exercise_Adherence_Following_Total_Hip_and_Knee_Arthroplasty"
       }
     },
     {
@@ -192,7 +195,8 @@
         ],
         "doi": "https://doi.org/10.1007/978-3-031-61950-2_4",
         "abstract": "The use of passive haptics in virtual reality environments has been shown to improve procedural learning across various application domains such as first responders training, kayaking, and others (Calandra at al. 2023, Barmpoutis et al. 2020). In this paper we want to go one step further and quantify the effect of passive haptics on knowledge acquisition and recall. We developed a specialized virtual reality application for learning various chemical compounds and their components. Participants engaged in activities that involved precise mixing and proportioning of chemical components to form targeted compounds (see Figure 1). Employing an A-B test framework, participants were randomly assigned to two identical virtual reality environments, differing only in the substitution of the VR controller with a physical jar. Post-study surveys were administered to gauge user perceptions regarding interaction accuracy and realism, as well as their ability to recall acquired knowledge (specifically, the list of ingredients) from their virtual experience. This pilot study, conducted at the University of Florida Reality Lab, involved 12 subjects. Rigorous statistical analyses, including chi-square tests, were performed on the collected data, with detailed results outlined in this paper. Two key findings emerged from the study: (a) the presence of the physical jar significantly heightened perceived interaction accuracy, particularly in precise liquid pouring tasks, and (b) users exhibited a remarkable 33% improvement in knowledge recall when utilizing the physical jar as opposed to a conventional VR controller. These results establish a compelling, statistically significant correlation between the integration of passive haptic objects in VR and knowledge acquisition and recall. Furthermore, this study lays the groundwork for a larger-scale study in the future.",
-        "image":"assets/garrett2024investigating.png"
+        "image":"assets/garrett2024investigating.png",
+        "academia":"https://www.academia.edu/120540312/Investigating_how_interaction_with_physical_objects_within_virtual_environments_affects_knowledge_acquisition_and_recall"
       }
     },
     {
@@ -206,7 +210,8 @@
         "citations": [],
         "doi": "https://doi.org/10.1007/978-3-031-61044-8_14",
         "abstract": "This paper presents a pilot study that explores the role of low-cost passive haptics on how users perceive physical properties such as the size and weight of objects within virtual reality environments. An A/B-type study was conducted as an air hockey simulation in which participants experienced two versions: one adhered to conventional VR settings, while the other incorporated a tangible surface, a real table. Statistical analysis of the data collected from post-study questionnaires indicated a shift in perception of size and weight when exposed to the haptic-enhanced simulation, with virtual objects perceived as larger or heavier. It was also noted that the observed shift of the user perception was stronger when the simulation with the tangible surface was experienced first. The paper presents details on the implementation of the air hockey simulation and the setup within the testing environment as well as the statistical analysis performed on the collected data, offering practical recommendations for future applications.",
-        "image":"assets/kemper2024assessing.png"
+        "image":"assets/kemper2024assessing.png",
+        "academia":"https://www.academia.edu/120540216/Assessing_the_Influence_of_Passive_Haptics_on_User_Perception_of_Physical_Properties_in_Virtual_Reality"
       }
     },
     {
@@ -268,7 +273,8 @@
         "doi": "https://doi.org/10.1109/ISEC57711.2023.10402239",
         "abstract": "Digital Arts and Sciences curricula have been known for combining topics of emerging technologies and artistic creativity for the professional preparation of future technical artists and other creative media professionals. One of the key challenges in such an interdisciplinary curriculum is the instruction of complex technical concepts to an audience that lacks prior computer science background. This paper discusses how developing small custom virtual and augmented reality game engines can become an effective and engaging method for teaching various fundamental technical topics from Digital Arts and Sciences curricula. Based on empirical evidence, we demonstrate examples that integrate concepts from geometry, linear algebra, and computer programming to 3D modeling, animation, and procedural art. The paper also introduces an open-source framework for implementing such a curriculum in Quest VR headsets, and we provide examples of small-scale focused exercises and learning activities.",
         "image":"assets/barmpoutis2023developing.png",
-        "feature":94
+        "feature":94,
+        "academia":"https://www.academia.edu/101943381/Developing_Mini_VR_Game_Engines_as_an_Engaging_Learning_Method_for_Digital_Arts_and_Sciences"
       }
     },
     {
@@ -307,7 +313,8 @@
         ],
         "doi": "https://doi.org/10.1109/ISBI53787.2023.10230652",
         "abstract": "Prostate cancer is the most common internal malignancy among males. Micro-Ultrasound is a promising imaging modality for cancer identification and computer-assisted visualization. Identifying the prostate capsule area is essential in active surveillance monitoring and treatment planning. In this paper, we present a pilot study that assesses prostate capsule segmentation using the U-Net deep neural network framework. To the best of our knowledge, this is the first study on prostate capsule segmentation in Micro-Ultrasound images. For our study, we collected multi-frame volumes of Micro-Ultrasound images, and then expert prostate cancer surgeons annotated the capsule border manually. The lack of clear boundaries and variation of shapes between patients make the task challenging, especially for novice Micro-Ultrasound operators. In total 2099 images were collected from 8 subjects, 1296 of which were manually annotated and were split into a training set (1008), a validation set (112), and a test set from a different subject (176). The performance of the model was evaluated by calculating the Intersection over Union (IoU) between the manually annotated area of the capsule and the segmentation mask computed from the trained deep neural network. The results demonstrate high IoU values for the training set (95.05%), the validation set (93.18%) and the test set from a separate subject (85.14%). In 10-fold cross-validation, IoU was 94.25%, and accuracy was 99%, validating the robustness of the model. Our pilot study demonstrates that deep neural networks can produce reliable segmentation of the prostate capsule in Micro-Ultrasound images and pave the road for the segmentation of other anatomical structures within the capsule, which will be the subject of our future studies."
-        ,"image":"assets/guo2023prostate.png"
+        ,"image":"assets/guo2023prostate.png",
+        "academia":"https://www.academia.edu/101943307/Prostate_Capsule_Segmentation_in_Micro_Ultrasound_Images_Using_Deep_Neural_Networks"
       }
     },
     {
@@ -348,7 +355,8 @@
         "doi": "https://doi.org/10.1007/978-3-031-05890-5_16",
         "abstract": "Human movement classification and analysis are important in the research of health sciences and the arts. Laban movement analysis is an effective method to annotate human movement in dance that describes communication and expression. Technology-supported human movement analysis employs motion sensors, infrared cameras, and other wearable devices to capture critical joints of the human skeleton and facial key points. However, the aforementioned technologies are not mainstream, and the most popular form of motion capture is conventional video recording, usually from a single stationary camera. Such video recordings can be used to evaluate human movement or dance performance. Any methods that can systematically analyze and annotate these raw video footage would be of great importance to this field. Therefore, this research offers an analysis and comparison of AI-based computer vision methods that can annotate the human movement automatically. This study trained and compared four different machine learning algorithms (random forest, K neighbors, neural network, and decision tree) through supervised learning on existing video datasets of dance performances. The developed system was able to automatically produce annotation in the four dimensions (effort, space, shape, body) of Laban movement analysis. The results demonstrate accurately produced annotations in comparison to manually entered ground truth Laban annotation."
         ,"image":"assets/guo2022ai.jpg",
-        "feature":92
+        "feature":92,
+        "academia":"https://www.academia.edu/101943128/AI_driven_Human_Motion_Classification_and_Analysis_using_Laban_Movement_System"
       }
     },
     {
@@ -379,7 +387,8 @@
         "doi": "https://doi.org/10.1007/978-3-030-49695-1_18",
         "abstract": "This paper presents a novel virtual reality system that offers immersive experiences for instrumental music conductor training. The system utilizes passive haptics that bring physical objects of interest, namely the baton and the music stand, within a virtual concert hall environment. Real-time object and finger tracking allow the users to behave naturally on a virtual stage without significant deviation from the typical performance routine of instrumental music conductors. The proposed system was tested in a pilot study (n = 13) that assessed the role of passive haptics in virtual reality by comparing our proposed \"smart baton\" with a traditional virtual reality controller. Our findings indicate that the use of passive haptics increases the perceived level of realism and that their virtual appearance affects the perception of their physical characteristics."
        ,"image":"assets/barmpoutis2020assessing.jpg",
-       "feature":90
+       "feature":90,
+       "academia":"https://www.academia.edu/43704579/Assessing_the_Role_of_Virtual_Reality_with_Passive_Haptics_in_Music_Conductor_Education_A_Pilot_Study"
       }
     },
     {
@@ -399,7 +408,8 @@
         ],
         "doi": "https://doi.org/10.1007/978-3-030-50729-9_20",
         "abstract": "This paper presents the results of a pilot study that assesses the effect of passive haptics on the user experience in virtual reality simulations of recreation and sports activities. A virtual reality kayaking environment with realistic physics simulation and water rendering was developed that allowed users to steer the kayak using natural motions. Within this environment the users experienced two different ways of paddling using: a) a pair of typical virtual reality controllers, and b) one custom-made \"smart paddle\" that provided the passive haptic feedback of a real paddle. The results of this pilot study indicate that the users learned faster how to steer the kayak using the paddle, which they found to be more intuitive to use and more appropriate for this application. The results also demonstrated an increase in the perceived level of enjoyment and realism of the virtual experience."
-        ,"image":"assets/barmpoutis2020virtual.jpg"
+        ,"image":"assets/barmpoutis2020virtual.jpg",
+        "academia":"https://www.academia.edu/43704593/Virtual_Kayaking_A_study_on_the_effect_of_low_cost_passive_haptics_on_the_user_experience_while_exercising"
       }
     },
     {
@@ -642,7 +652,8 @@
         ],
         "doi": "https://doi.org/10.1109/ISECon.2018.8340500",
         "abstract": "Emoticoding is a technique for learning computer programming that has been shown to improve student learning outcomes and reduce blank page trauma during the students' first encounter with text editing interfaces. In this paper, a generalized method is presented for integrating computer education with other learning topics, such as algebra, geometry, music, and 3D art, using emoticoding. The proposed method is based on the theoretical framework of brain-activating text replacements, which assists students to make connections between the tokens of a typed language (such as computer code) and a set of replacing graphemes (such as interpretative visual or textual replacements). When the computer code is instantly being replaced with graphemes from another learning topic, for example geometric shapes or music notation, the student can make interdisciplinary connections while learning to code. A work-in-progress user interface with four sets of visual replacements is presented in this paper for substituting the discrete tokens of a computer program (JavaScript) with symbols from algebra, geometry, music notation, and solid shapes. The proposed replacements are demonstrated with computer scripts through the emoticoding framework using learning objectives from K-12 common core standards."
-        ,"image":"assets/barmpoutis2018integrating.png"
+        ,"image":"assets/barmpoutis2018integrating.png",
+        "academia":"https://www.academia.edu/43704738/Integrating_Algebra_Geometry_Music_3D_Art_and_Technology_using_Emoticoding"
       }
     },
     {
@@ -660,7 +671,8 @@
         ],
         "doi": "https://doi.org/10.1145/3279720.3279721",
         "abstract": "The basic knowledge of computer programming is generally considered a valuable skill for educated citizens outside computer science and engineering professions. However, learning programming can be a challenging task for beginners of all ages especially outside of formal CS education. This paper presents a novel source code editing method that assists novice users understand the logic and syntax of the computer code they type. The method is based on the concept of text replacements that interactively provide the learners with declarative knowledge and help them transform it to procedural knowledge, which has been shown to be more robust against decay. An active tokenization algorithm splits the typed code into tokens as they are typed and replaces them with a pre-aligned translation in a human natural language."
-        ,"image":"assets/barmpoutis2018learning.png"
+        ,"image":"assets/barmpoutis2018learning.png",
+        "academia":"https://www.academia.edu/43704619/Learning_Programming_Languages_as_Shortcuts_to_Natural_Language_Token_Replacements"
       }
     },
     {
@@ -678,7 +690,8 @@
         ],
         "doi": "https://doi.org/10.1007/978-3-319-93882-0_20",
         "abstract": "This paper presents a case study for assessing the effect of emoticoding during the students' first encounter with text-based coding interfaces, in which period a student could have a deeply disappointing experience that may lead to \"blank page trauma\" as well as negative attitude towards the subject. A prototype metaphor-based source code editor was developed using novel human-computer interaction mechanics based on the concept of emoticon-like scripting. Similarly to the use of shortcuts for typing emoticons in social media, visual or textual replacements appear in the proposed text editor when the user types complete valid tokens from a given programming language. Appropriate metaphors can be used in the design of the token replacements so that they are appealing to a particular age, gender, or cultural groups of users. Quantitative analysis of data from 5th-grade students (n=40) shows that metaphor-based emoticoding improves significantly the students' performance in terms of syntax recall when they transition from block-to text-based programming in comparison to transitioning without emoticoding."
-        ,"image":"assets/barmpoutis2018name.png"
+        ,"image":"assets/barmpoutis2018name.png",
+        "academia":"https://www.academia.edu/43704686/Name_Tags_and_Pipes_Assessing_the_Role_of_Metaphors_in_Students_Early_Exposure_to_Computer_Programming_using_Emoticoding"
       }
     },
     {
@@ -748,7 +761,8 @@
           "tian2026circular"
         ],
         "doi": "https://doi.org/10.1007/978-3-319-57987-0_1",
-        "abstract":"This paper presents a framework for natural traversal of an infinite virtual path using a camera-projector augmented-reality system. In the proposed framework this problem is formulated as an optimization problem using an energy function that is based on several user-experience factors as well as topological constraints in the real and virtual space. The solution is analytically derived by minimizing the cost function with respect to the parameters of the path in the real and virtual space. The obtained optimal path has the form of a zigzag curve and is demonstrated in an interactive application for delivering stimulating slide-show presentations for on-line learning."
+        "abstract":"This paper presents a framework for natural traversal of an infinite virtual path using a camera-projector augmented-reality system. In the proposed framework this problem is formulated as an optimization problem using an energy function that is based on several user-experience factors as well as topological constraints in the real and virtual space. The solution is analytically derived by minimizing the cost function with respect to the parameters of the path in the real and virtual space. The obtained optimal path has the form of a zigzag curve and is demonstrated in an interactive application for delivering stimulating slide-show presentations for on-line learning.",
+        "academia":"https://www.academia.edu/43704706/Analytical_mapping_of_linear_walk_from_infinite_virtual_space_to_finite_real_space"
       }
     },
     {
@@ -767,7 +781,8 @@
         ],
         "doi": "https://doi.org/10.1007/978-3-319-60011-6_7",
         "abstract": "In this paper a new method is proposed for learning computer programming. This method utilizes a set of human-readable graphemes and tokens that interactively replace the grammatical tokens of programming languages, using a concept similar to emoticons in social media. The theoretical framework of the proposed method is discussed in detail and two implementations are presented for the programming language ECMAScript (JavaScript). The results from user testing with undergraduate students show that the proposed technique improves the student's learning outcomes in terms of syntax recall and logic comprehension, in comparison to traditional source code editors."
-        ,"image":"assets/barmpoutis2017assessing.jpg"
+        ,"image":"assets/barmpoutis2017assessing.jpg",
+        "academia":"https://www.academia.edu/43704726/Assessing_the_Effectiveness_of_Emoticon_Like_Scripting_in_Computer_Programming"
       }
     },
     {
@@ -799,7 +814,8 @@
         ],
         "url": "https://www.digitalepigraphy.org/page/augmented-reality-for-epigraphy-how-to-bring-holograms-of-inscriptions-to-your-classrooms/",
         "abstract": "The year 2017 is a turning point for many disciplines as within the past year new technologies, such as virtual and augmented reality, have been established as low-cost and easy-to-use consumer devices. The potential advantages were eloquently predicted by Bodel et al. in the paper titled \"Epigraphy in 2017\": \"What we hope will change and improve by 2017 are the tools available for gathering information and analyzing it…\" In this work we present a method for a novel interface for studying inscriptions, using augmented reality head-mounted displays, such as Microsoft's Hololens glasses. This interface allows the users to browse through 3D databases of inscriptions and visualize the inscription within their actual physical space, such as office or classroom. Once the user positions the hologram of the inscription in a particular location, as the top of the desk, it remains there, allowing him/her to move around the inscription and study the artifact as a whole, up close, and from different perspectives. Similarly multiple inscriptions can be positioned next to one another, providing the opportunity for comparative readings, profound study of lettering techniques, and potential identification and pairing of fragments. To the best of our knowledge this is the first project that utilizes this kind of holographic technology, opening for the first time the possibilities to epigraphists to conveniently study the inscriptions in a more natural way as physical objects instead of viewing the artifacts simply as 3D files on a desktop computer."
-        ,"image":"assets/bozia2017augmented.jpg"
+        ,"image":"assets/bozia2017augmented.jpg",
+        "academia":"https://www.academia.edu/43704753/Augmented_Reality_for_Epigraphy_How_to_bring_holograms_of_inscriptions_to_your_classrooms"
       }
     },
     {
@@ -822,7 +838,8 @@
         ],
         "doi": "https://doi.org/10.13133/978-88-9377-021-7",
         "abstract": "This paper presents the results of an interaction design study that focuses on the use of natural user interfaces for professionals in the fields of epigraphy and archaeology. This study proposes solutions for utilizing the sensors that can be found in popular handheld devices, such as tablets and smart phones, in order to naturally perform common tasks from the typical work-flow of epigraphists. The developed interface allows the users to naturally hold digitized inscriptions, interact with them in order to relight or manipulate them as if they were real physical objects, and interact with metadata or other multi-modal data, such as text and images."
-        ,"image":"assets/barmpoutis2016augmenting.png"
+        ,"image":"assets/barmpoutis2016augmenting.png",
+        "academia":"https://www.academia.edu/43704670/AUGMENTING_THE_WORKSPACE_OF_EPIGRAPHISTS_An_interaction_design_study"
       }
     },
     {
@@ -852,7 +869,8 @@
         "doi": "https://doi.org/10.1109/KELVAR.2016.7563674",
         "abstract": "In this paper a novel computer-assisted culturally responsive teaching (CRT) framework is presented for teaching mathematics to 5th grade students. The curricular basis for this framework is Gloria Jean Merriex's award winning curriculum program, which uses music and body gestures to help students build associations between mathematical concepts and culturally inspired metaphors. The proposed framework uses low-cost kinesthetic sensors along with an embodied virtual reality gaming environment that extends such proven CRT methodologies from a traditional classroom into a digital form. A pilot study was performed to investigate the efficacy of this framework in 5th grade students. A group of 35 students participated in this study and the results are discussed in detail."
         ,"image":"assets/barmpoutis2016exploration.jpg",
-        "feature":84
+        "feature":84,
+        "academia":"https://www.academia.edu/43704797/Exploration_of_Kinesthetic_Gaming_for_Enhancing_Elementary_Math_Education_using_Culturally_Responsive_Teaching_Methodologies"
       }
     },
     {
@@ -939,7 +957,8 @@
         "doi": "https://doi.org/10.1007/978-3-319-20687-5_1",
         "abstract": "In this paper a novel framework is presented for interactive feature-based retrieval and visualization of human statues, using depth sensors for mobile devices. A skeletal model is fitted to the depth image of a statue or human body in general and is used as a feature vector that captures the pose variations in a given collection of skeleton data. A scale- and twist-invariant distance function is defined in the feature space and is employed in a topology-preserving low-dimensional lattice mapping framework. The user can interact with this self-organizing map by submitting queries in the form of a skeleton from a statue or a human body. The proposed methods are demonstrated in a real dataset of 3D digitized Graeco-Roman statues from Palazzo Altemps."
         ,"image":"assets/barmpoutis2015interactive.png",
-        "feature":82
+        "feature":82,
+        "academia":"https://www.academia.edu/11314478/Interactive_3D_digitization_retrieval_and_analysis_of_ancient_sculptures_using_infrared_depth_sensors_for_mobile_devices"
       }
     },
     {
@@ -1105,7 +1124,8 @@
         ],
         "doi": "https://doi.org/10.1201/b17360",
         "abstract": "This chapter presents examples of utilizing virtual environments for experiential learning and training purposes, with applications to several areas in the Science, Technology, Engineering & Mathematics (STEM), and Health Sciences. The chapter starts with a general introduction to experiential learning, followed by a presentation of various technologies for enhancing the experience in virtual environments. The rest of the chapter is organized into two sections that discuss specific examples of virtual environments for experiential learning and therapeutic medical applications respectively. More specifically, the examples will demonstrate: the use of low-cost haptic devices in virtual environments for learning nanotechnology, experiential learning environments for forest education, and the use of virtual reality theaters as an educational tool in the arts and sciences."
-        ,"image":"assets/barmpoutis2014applications.png"
+        ,"image":"assets/barmpoutis2014applications.png",
+        "academia":"https://www.academia.edu/11314433/Applications_of_Virtual_Environments_in_Experiential_STEM_and_Health_Science_Education"
       }
     },
     {
@@ -1176,7 +1196,8 @@
         ],
         "doi": "https://doi.org/10.13133/978-88-98533-42-8",
         "abstract":"Preservation and dissemination of archaeological material has always been an issue of concern for the academic research community. On the one hand, the fragility of the material limits their study. On the other hand, such material is housed in museums, libraries, and institutions worldwide, something that significantly thwarts their accessibility. Technology, high resolution 2D pictures, and electronic databases have attempted to overcome the aforementioned limitations. However, lack of contact with the physical object as a tridimensional structure still significantly obstructs research. In this paper we present the latest advances of the Digital Epigraphy Toolbox, a novel project that focuses on the digitization in 3D of ancient inscriptions from ektypa, the multi-modal visualization of their 3D models, the facilitation of interlinked 3D digitized records, and the easy and effective electronic dissemination of archaeological material. This project offers options for cost-effective shape-from-shading 3D digitization of ektypa, using a flatbed scanner, and various visualization modes, such as photorealistic 3D views and informative fingerprint map and depth map that assist scholars understand the structural characteristics of the artifacts. Finally, the project facilitates the dissemination of the 3D digitized objects by providing the users with an embeddable 3D viewer which can be easily imported in third-party databases, collections, and personal websites.",
-        "image":"assets/bozia201427.jpg"
+        "image":"assets/bozia201427.jpg",
+        "academia":"https://www.academia.edu/11314555/OPEN_ACCESS_EPIGRAPHY_Electronic_Dissemination_of_3D_digitized_Archaeological_Material"
       }
     },
     {
@@ -1401,7 +1422,8 @@
         "doi": "https://doi.org/10.1109/TCYB.2013.2276430",
         "abstract":"Real-time 3D reconstruction of the human body has many applications in anthropometry, telecommunications, gaming, fashion, and other areas of human-computer interaction. In this paper a novel framework is presented for reconstructing the 3D model of the human body from a sequence of RGBD frames. The reconstruction is performed in real time while the human subject moves arbitrarily in front of the camera. The method employs a novel parameterization of cylindrical-type objects using Cartesian tensor and b-spline bases along the radial and longitudinal dimension respectively. The proposed model, dubbed tensor body, is fitted to the input data using a multistep framework that involves segmentation of the different body regions, robust filtering of the data via a dynamic histogram, and energy-based optimization with positive-definite constraints. A Riemannian metric on the space of positive-definite tensor splines is analytically defined and employed in this framework. The efficacy of the presented methods is demonstrated in several real-data experiments using the Microsoft Kinect sensor.",
         "image":"assets/barmpoutis2013tensor.png",
-        "feature":80
+        "feature":80,
+        "academia":"https://www.academia.edu/11314430/Tensor_Body_Real_Time_Reconstruction_of_the_Human_Body_and_Avatar_Synthesis_From_RGB_D"
       }
     },
     {
@@ -1430,7 +1452,8 @@
         "doi": "https://doi.org/10.1109/ICCVE.2013.6799857",
         "abstract" :"A significant amount of research has been involved with the development of advanced driver-assistance systems. Such systems typically include radars, laser or video sensors that detect the vehicle trajectory and warn for an imminent lane departure, or sense the front vehicle’s speed and apply the brakes of the following vehicle to maintain safe distance headways (i.e., collision avoidance system). However, most of these systems rely on the subject vehicle and surrounding vehicles’ position and do not explicitly consider the driver’s actions during the driving task. In addition safety research has focused on eye tracking as a means of capturing driver’s attention, fatigue, or drowsiness; however, the body posture has not been investigated in depth. This paper presents a novel approach for studying the actual movements of drivers inside the vehicle, when performing specific maneuver types such as lane changing and merging. This information can be useful for identifying specific body movements that may hide potentially unsafe situations. A pilot study was conducted along a freeway and arterial segment, where the 3D shapes of selected participants were constructed with the use of a low-cost infrared depth sensor (Microsoft Kinect) while merging and changing lanes. The analysis of the 3D shapes shows that there are important differences between participants when performing similar driving maneuvers. The preliminary results of this pilot research set the basis for implementing the proposed methodological framework for conducting full-scale experiments with a variety of participants, and exploring differences due to driver behavior attributes, such as age, gender and driving experience.",
         "image":"assets/kondyli20133d.png",
-        "feature":78
+        "feature":78,
+        "academia":"https://www.academia.edu/43704810/A_3D_experimental_framework_for_exploring_drivers_body_activity_using_infrared_depth_sensors"
       }
     },
     {
@@ -1625,7 +1648,8 @@
         ],
         "doi": "https://doi.org/10.1007/s00138-009-0198-7",
         "abstract":"Studying ancient inscriptions is based up to date mostly on observation and manual analysis by means of which epigraphists attempt to establish a geographical and chronological classification as well as to analyze the lettering techniques. In this paper we propose a novel framework for efficient 3D reconstruction of inscriptions and for statistical analysis of their reconstructed surfaces. The proposed framework employs a shape-from-shading technique to reconstruct in 3D the shape of the inscribed surfaces. The obtained surfaces are segmented into smaller box-shaped regions containing single letters. These letters are classified into groups of same characters or symbols and then an atlas (average) letter shape is created for each character. For the construction of those atlases we employ a functional minimization method that registers the surfaces of same letters to the unknown average surface, which is also estimated simultaneously. Using the estimated atlases an automated analysis of the inscribed letters is performed. This framework can be effectively used for the study of the variations of the lettering techniques within an inscription or a set of inscriptions. We applied our framework to five ancient Greek inscriptions. Our results are reported in detail and the variations found in lettering techniques are commented on by archaeologists who also validate the accuracy of our proposed method.",
-        "image":"assets/barmpoutis2010novel.png"
+        "image":"assets/barmpoutis2010novel.png",
+        "academia":"https://www.academia.edu/11314419/A_novel_framework_for_3D_reconstruction_and_analysis_of_ancient_inscriptions"
       }
     },
     {
