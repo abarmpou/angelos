@@ -571,6 +571,7 @@
 
   const awardsTimeline = [
     { year: "2026", title: "Provost's Commendation for Outstanding Teaching Evaluations" },
+    { year: "2025", title: "Recipient of the Innov8r license plate at the third annual Standing InnOvation Showcase." },
     { year: "2024", title: "Sigma Xi — Scientific Research Honor Society, Elected Full Member" },
     { year: "2024", title: "Presidential Appointee, University Taskforce" },
     { year: "2020–2023", title: "UF Research Foundation Professor" },
@@ -695,7 +696,7 @@
       listEl,
       moreWrapEl,
       renderItem: renderFundingItem,
-      batchSize: 10,
+      batchSize: 6,
       noun: "funded projects"
     });
     renderer.setItems(fundingHighlights);
