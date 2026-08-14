@@ -389,7 +389,7 @@
     },
     {
       title: "Virtual, Augmented & Extended Reality",
-      icon: "layers",
+      icon: "vr",
       summary: "Passive haptics, immersive museum experiences, and telehealth XR for home-based rehabilitation.",
       detail: "Projects span passive-haptic VR for music conductor education, museum collections situated in 3D context for children, and integrated telehealth and XR for post-surgical home exercise adherence.",
       link: { href: "https://doi.org/10.1007/978-3-030-49695-1_18", label: "Read the HCII paper" }
@@ -425,12 +425,13 @@
   ];
 
   const ICONS = {
-    spark: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 2l2.4 7.6L23 12l-7.6 2.4L13 22l-2.4-7.6L3 12l7.6-2.4L13 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
-    cube: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 2 23 7.5v11L13 24 3 18.5v-11L13 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 7.5 13 13l10-5.5M13 13v11" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
-    layers: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 3 24 9l-11 6L2 9l11-6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 14l11 6 11-6M2 19l11 6 11-6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
-    figure: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><circle cx="13" cy="5" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M13 9v7m0 0-5 8m5-8 5 8M7 14l6 2 6-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-    column: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M4 6h18M6 6v14m14-14v14M4 22h18M9 9v9m4-9v9m4-9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
-    pulse: '<svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M2 13h5l2.5-8L14 21l2.5-8H24" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>'
+    spark: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><path d="M13 2l2.4 7.6L23 12l-7.6 2.4L13 22l-2.4-7.6L3 12l7.6-2.4L13 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
+    cube: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><path d="M13 2 23 7.5v11L13 24 3 18.5v-11L13 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 7.5 13 13l10-5.5M13 13v11" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
+    vr: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><rect x="2" y="8" width="22" height="11" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="13.5" r="2.3" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="13.5" r="2.3" stroke="currentColor" stroke-width="1.6"/><path d="M2 12.5v2M24 12.5v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+    layers: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><path d="M13 3 24 9l-11 6L2 9l11-6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 14l11 6 11-6M2 19l11 6 11-6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>',
+    figure: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><circle cx="13" cy="5" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M13 9v7m0 0-5 8m5-8 5 8M7 14l6 2 6-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    column: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><path d="M4 6h18M6 6v14m14-14v14M4 22h18M9 9v9m4-9v9m4-9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+    pulse: '<svg width="78" height="78" viewBox="0 0 26 26" fill="none"><path d="M2 13h5l2.5-8L14 21l2.5-8H24" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>'
   };
 
   function renderResearchGrid() {
