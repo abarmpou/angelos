@@ -1136,6 +1136,50 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
 .timeline-item__title { margin-top: 0.25rem; font-size: 0.95rem; color: var(--text-primary); }
 
 /* =========================================================
+   SERVICE
+   ========================================================= */
+.service h3 {
+  font-size: 1.15rem;
+  margin-bottom: 1.1rem;
+}
+.service__journals {
+  margin-top: 3rem;
+}
+.service__journals p {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.service__grid {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 2.5rem;
+}
+.service__grid > * { min-width: 0; }
+@media (min-width: 900px) {
+  .service__grid { grid-template-columns: 1fr 1fr; }
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+.service-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+.service-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.55em;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--accent-bronze);
+}
+
+/* =========================================================
    OPEN SOURCE / REPOS
    ========================================================= */
 .repo-grid {

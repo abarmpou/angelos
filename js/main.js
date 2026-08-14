@@ -641,6 +641,7 @@
     { year: "2024", title: "Presidential Appointee, University Taskforce" },
     { year: "2020–2023", title: "UF Research Foundation Professor" },
     { year: "2023", title: "Best Paper Award — 2nd place, IEEE ISEC" },
+    { year: "2022", title: "Faculty speaker at the College of the Arts Graduation Ceremony." },
     { year: "2021", title: "Awarded Sabbatical Leave (Spring and Fall)" },
     { year: "2019", title: "Anderson Scholar Faculty Honoree" },
     { year: "2017", title: "Undergraduate Teacher of the Year Award, College of the Arts, UF" },
@@ -701,6 +702,13 @@
       title: "Prof. Barmpoutis was  honored at the third annual #InnOvationShowcase2025 with the license plate INNOV8R, which is given to UF researchers whose disclosed inventions have been officially licensed by a company. ",
       source: "UF Center for the Arts, Migration, and Enterpreneurship",
       href: "https://www.instagram.com/p/DQwovkaj3ca/"
+    },
+    {
+      year: "April 2025",
+      title: "Prof. Barmpoutis delivered the keynote speech at the 26th Undergraduate Research Symposium at the Stephen O'connell Center.",
+      source: "Center for Undergraduate Research",
+      href: "https://cur.aa.ufl.edu/wp-content/uploads/2025/04/Spring_symposium_2025.pdf"
+    
     },
     {
       year: "March 2025",
