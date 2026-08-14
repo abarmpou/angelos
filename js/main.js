@@ -464,6 +464,49 @@
   renderResearchGrid();
 
   /* ---------------------------------------------------------
+     STUDENT WORK LIGHTBOX
+  --------------------------------------------------------- */
+  const lightbox = document.getElementById("studentWorkLightbox");
+  const lightboxImage = document.getElementById("studentWorkLightboxImage");
+  const lightboxCaption = document.getElementById("studentWorkLightboxCaption");
+  const lightboxClose = document.getElementById("studentWorkLightboxClose");
+
+  function closeStudentWorkLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove("is-open");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("lightbox-open");
+    if (lightboxClose) lightboxClose.blur();
+  }
+
+  if (lightbox && lightboxImage && lightboxCaption && lightboxClose) {
+    const triggers = document.querySelectorAll(".student-work__trigger");
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const src = trigger.getAttribute("data-full") || trigger.querySelector("img")?.getAttribute("src");
+        const caption = trigger.getAttribute("data-caption") || "";
+        lightboxImage.src = src;
+        lightboxImage.alt = trigger.querySelector("img")?.getAttribute("alt") || "Student work image";
+        lightboxCaption.textContent = caption;
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.classList.add("lightbox-open");
+      });
+    });
+
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) closeStudentWorkLightbox();
+    });
+
+    lightboxClose.addEventListener("click", closeStudentWorkLightbox);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeStudentWorkLightbox();
+      }
+    });
+  }
+
+  /* ---------------------------------------------------------
      FEATURED PROJECTS DATA + RENDER
   --------------------------------------------------------- */
   const projects = [
