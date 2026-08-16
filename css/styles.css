@@ -1344,6 +1344,50 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
 .student-work__mentorship .service-list {
   max-width: 46rem;
 }
+.student-work__companies {
+  margin-top: 1.6rem;
+}
+.student-work__companies-label {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  margin-bottom: 0.85rem;
+}
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.company-logos__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.1rem;
+  padding: 0.6rem 1.1rem;
+  background: #ffffff;
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.company-logos__item:hover {
+  border-color: var(--accent-scan);
+  transform: translateY(-2px);
+}
+.company-logos__item img {
+  display: block;
+  max-height: 100%;
+  max-width: 8.5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.student-work__companies-note {
+  margin-top: 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
 .student-work__mentorship-photo {
   margin: 0;
   border: 1px solid var(--border-hairline);

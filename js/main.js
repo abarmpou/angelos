@@ -837,7 +837,7 @@
     },
     {
       title: "AIDP Diagnostic Platform",
-      desc: "Web-based automated imaging differentiation platform for Parkinsonism, classified by FDA as a Class II medical device for clinical use.",
+      desc: "I designed a cloud-based web application for automated imaging differentiation of Parkinsonian variants, classified by FDA as a Class II medical device for clinical use.",
       href: "https://neuropacs.com",
       linkLabel: "View project"
     }
