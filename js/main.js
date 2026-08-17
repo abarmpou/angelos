@@ -416,11 +416,11 @@
       link: { href: "https://doi.org/10.1109/KELVAR.2016.7563674", label: "Read the IEEE VR paper" }
     },
     {
-      title: "Biomedical AI Diagnostics",
+      title: "Start-up Development",
       icon: "pulse",
-      summary: "AI-assisted differentiation of neurogenerative diseases, including Parkinsonism and Alzheimer's.",
-      detail: "The Automated Imaging Differentiation for Parkinsonism web platform, led to an NIH-supported commercialization effort via the university spin-out neuropacs, and gained FDA approval as a Class II medical device for clinical use.",
-      link: { href: "https://doi.org/10.1001/jamaneurol.2025.0112", label: "Read the JAMA Neurology paper" }
+      summary: "Led the commercialization of a university research project into a spin-out SAAS (Software as a Service) company.",
+      detail: "I designed and deployed a web platform through an NIH-supported commercialization effort that led to the university spin-out start-up company Neuropacs, which gained FDA approval as a Class II medical device and is now being used in all major hospitals.",
+      link: { href: "https://neuropacs.com", label: "Visit the neuropacs website" }
     }
   ];
 
@@ -558,16 +558,16 @@
     },
     
     {
-      tag: "Patented Invention",
+      tag: "Patented Inventions",
       title: "Tensor Body — Real-Time Avatar Synthesis",
       desc: "Real-time reconstruction of the human body and automated avatar synthesis from low-cost depth sensors — U.S. Patent 10,121,273 B2.",
       img: "assets/barmpoutis2018real.png",
       href: "https://patents.google.com/patent/US10121273B2/en"
     },
     {
-      tag: "Biomedical AI",
-      title: "Automated Imaging Differentiation for Parkinsonism",
-      desc: "A 21-site clinical AI platform for differentiating Parkinsonism subtypes from MRI, published in JAMA Neurology and commercialized via neuropacs.",
+      tag: "Start-up Development",
+      title: "Commercializing University Research",
+      desc: "Led the commercialization of a university research project into a spin-out SAAS (Software as a Service) company, which gained FDA-approval as a Class II medical device.",
       img: "assets/vaillancourt2025automated.png",
       href: "https://neuropacs.com"
     },
@@ -1015,7 +1015,8 @@
       list = list.filter((p) =>
         p.title.toLowerCase().includes(q) ||
         p.author.toLowerCase().includes(q) ||
-        p.venue.toLowerCase().includes(q)
+        p.venue.toLowerCase().includes(q) ||
+        (p.abstract && p.abstract.toLowerCase().includes(q))
       );
     }
 
