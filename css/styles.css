@@ -668,7 +668,7 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
   .research-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 1050px) {
-  .research-grid { grid-template-columns: repeat(3, 1fr); }
+  .research-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .research-card {

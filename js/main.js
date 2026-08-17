@@ -381,34 +381,36 @@
   --------------------------------------------------------- */
   const researchAreas = [
     {
-      title: "AI in the Arts",
-      icon: "spark",
-      summary: "Computational systems as creative collaborators — from AI-driven dance analysis to generative performance tools.",
-      detail: "Representative work: real-time recognition and attribution of Afrogenic dance movements (ACM IMX 2026), developed with the ATUNDA project and funded by the Robert Wood Johnson Foundation, connecting computational motion analysis with performance studies and cultural preservation.",
-      link: { href: "https://dl.acm.org/doi/10.1145/3788851.3805020", label: "Read the ACM IMX paper" }
-    },
-    {
-      title: "Virtual, Augmented & Extended Reality",
+      title: "Embodied & Immersive Interaction",
       icon: "vr",
-      summary: "Passive haptics, immersive museum experiences, and telehealth XR for home-based rehabilitation.",
-      detail: "Projects span passive-haptic VR for music conductor education, museum collections situated in 3D context for children, and integrated telehealth and XR for post-surgical home exercise adherence.",
-      link: { href: "https://doi.org/10.1007/978-3-030-49695-1_18", label: "Read the HCII paper" }
-    },
-    {
-      title: "Computer Vision & 3D Visualization",
-      icon: "cube",
-      summary: "Tensor-based methods for real-time avatar synthesis, and structured-light 3D reconstruction.",
+      summary: "Design of passive haptic interfaces, immersive museum installations, and embodied interactions in virtual environments.",
       detail: "Foundational contributions include a patented real-time human-body reconstruction and avatar synthesis system (U.S. Patent 10,121,273 B2) built on low-cost infrared depth sensors.",
       link: { href: "https://patents.google.com/patent/US10121273B2/", label: "View the patent" }
     },
+
     {
-      title: "Digital Cultural Heritage",
+      title: "Computational Creativity & AI",
+      icon: "spark",
+      summary: "Computational systems as creative collaborators — from AI-driven dance analysis to generative performance tools.",
+      detail: "Representative work: real-time recognition and attribution of Afrogenic dance movements (ACM IMX 2026), developed with the ATUNDA project and funded by the Robert Wood Johnson Foundation, connecting computational motion analysis with performance studies.",
+      link: { href: "https://dl.acm.org/doi/10.1145/3788851.3805020", label: "Read the ACM IMX paper" }
+    },
+    
+    {
+      title: "Emerging Techologies for Social Impact",
+      icon: "cube",
+      summary: "Projects span passive-haptic VR for music conductor education, museum collections situated in 3D context for children, and integrated telehealth and XR for post-surgical home exercise adherence.",
+      detail: "Notable work includes designing and deploying a web platform through an NIH-supported commercialization effort that led to a university spin-out start-up company, which gained FDA approval as a Class II medical device and is now being used in all major hospitals.",
+      link: { href: "https://doi.org/10.1109/KELVAR.2016.7563674", label: "Read the IEEE VR paper" }
+    },
+    {
+      title: "Digital Heritage & Public Experience",
       icon: "column",
-      summary: "3D digitization and analysis of ancient inscriptions, transforming how we preserve and share cultural artifacts.",
+      summary: "Development of novel methods for 3D digitization and analysis of historical artifacts, transforming how we preserve and share cultural monuments.",
       detail: "Work includes the 3D digitization of the Rosetta Stone for the British Museum, and the Digital Epigraphy Toolbox — an NEH-funded, internationally adopted tool used by the Library of Congress, Cornell University, and the UK National Archives.",
       link: { href: "https://www.digitalepigraphy.org/", label: "Visit the Digital Epigraphy Project" }
     },
-    {
+    /*{
       title: "Human Movement & Motion Analysis",
       icon: "figure",
       summary: "AI-driven classification of human motion, from Laban dance movement encoding to driver body posture analysis.",
@@ -421,7 +423,7 @@
       summary: "Led the commercialization of a university research project into a spin-out SAAS (Software as a Service) company.",
       detail: "I designed and deployed a web platform through an NIH-supported commercialization effort that led to the university spin-out start-up company Neuropacs, which gained FDA approval as a Class II medical device and is now being used in all major hospitals.",
       link: { href: "https://neuropacs.com", label: "Visit the neuropacs website" }
-    }
+    }*/
   ];
 
   const ICONS = {
@@ -568,7 +570,7 @@
       tag: "Start-up Development",
       title: "Commercializing University Research",
       desc: "Led the commercialization of a university research project into a spin-out SAAS (Software as a Service) company, which gained FDA-approval as a Class II medical device.",
-      img: "assets/vaillancourt2025automated.png",
+      img: "assets/tractography.png",
       href: "https://neuropacs.com"
     },
     {
