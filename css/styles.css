@@ -1253,6 +1253,16 @@ h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
   font-size: clamp(1.25rem, 2vw, 1.7rem);
   line-height: 1.2;
 }
+.course-card__title-link {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-scan);
+  text-underline-offset: 0.2em;
+  transition: color 0.2s var(--ease);
+}
+.course-card__title-link:hover,
+.course-card__title-link:focus-visible {
+  color: var(--accent-scan);
+}
 .course-card__body p {
   margin-top: 0.9rem;
   color: var(--text-muted);
