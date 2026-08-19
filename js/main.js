@@ -685,7 +685,7 @@
       year: "June 2026",
       title: "Congratulations to my students T.Pank and D.Carrascosa for presenting our research at ACM IMX.",
       source: "ACM Conference on Interactive Media Experiences 2026",
-      href: "https://doi.org/10.1145/3788851.380502"  
+      href: "https://doi.org/10.1145/3788851.3805020"  
     },
     {
       year: "April 2026",
