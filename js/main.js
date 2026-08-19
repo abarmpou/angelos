@@ -615,9 +615,9 @@
      FUNDING + TIMELINE DATA/RENDER
   --------------------------------------------------------- */
   const fundingHighlights = [
-    { amount: "$439,336", title: "ATUNDA: An AI Deep Tech Solution for Afrogenic Dance Move Recognition", meta: "Robert Wood Johnson Foundation 79829 · co-Director · July 2023 – June 2024" },
+    { amount: "$439,336", title: "ATUNDA: An AI Deep Tech Solution for Afrogenic Dance Move Recognition", meta: "Robert Wood Johnson Foundation 79829 · co-Director · July 2023 – June 2026" },
     { amount: "$1,647,650", title: "Clinical performance testing of neuropacs™ in Parkinsonism diagnosis", meta: "NIH NIA/NINDS 2R42NS132614-02 · PI · Sept 2024 – Aug 2026" },
-    { amount: "$392,605", title: "Collaborative Research: 3D Visualization of Dentofacial Development in Primates", meta: "NSF 2235578 · Senior Faculty · May 2023 – Apr 2026" },
+    { amount: "$392,605", title: "Collaborative Research: 3D Visualization of Dentofacial Development in Primates", meta: "NSF 2235578 · Senior Faculty · May 2023 – Apr 2027" },
     { amount: "$400,000", title: "Intersections on Technology, Space, and Time", meta: "Andrew W. Mellon Foundation · co-Investigator · Aug 2018 – Aug 2021" },
     { amount: "$87,000", title: "K3D: An Augmented-Reality Distance Education Classroom", meta: "UF Office of the CIO · PI · May 2012 – May 2013" },
     { amount: "$48,943", title: "Novel framework for physical tele-therapy using infrared depth sensors and haptic feedback", meta: "UF Informatics Institute Seed Fund · PI · Sept 2014 – Sept 2015" },
@@ -626,7 +626,7 @@
     { amount: "$16,500", title: "Consumer Video Product for the Monster Jam Ride Truck", meta: "FELD Entertainment · PI · Aug 2019 – Aug 2020" },
     { amount: "$16,500", title: "Virtual Reality: A Next-Generation Tool to Improve Waste and Materials Management", meta: "PTP Strategies, LLC · PI · Aug 2019 – Aug 2020" },
     { amount: "$7,500", title: "Game technology to enhance sensory input and promote walking recovery", meta: "UF CTSI / NIH · co-Investigator · Mar 2011 – Mar 2012" },
-    { amount: "$4,777,251", title: "Web-based Automated Imaging Differentiation of Parkinsonism", meta: "NIH U01 NS119562-01 · Multi-PI · Apr 2021 – Mar 2026" },
+    { amount: "$4,777,251", title: "Web-based Automated Imaging Differentiation of Parkinsonism", meta: "NIH U01 NS119562-01 · Multi-PI · Apr 2021 – Mar 2027" },
     { amount: "$132,972", title: "Investigating the Effect of Drivers' Body Motion on Traffic Safety", meta: "US DOT / STRIDE 2013-051S · PI · Sept 2013 – June 2015" },
     { amount: "$421,788", title: "Dysmetria & Motor Function in SCA: Mechanisms and Rehabilitation", meta: "NIH-NINDS R21 NS094946 · Investigator · Sept 2015 – Aug 2018" },
     { amount: "$70,000", title: "3D Digitization of the Squeeze Collection, University of Venice", meta: "Ca' Foscari University of Venice (Digital Epigraphy Toolbox) · Consultant · June 2017 – May 2019" },
