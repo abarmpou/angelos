@@ -665,6 +665,12 @@
   --------------------------------------------------------- */
   const newsItems = [
     {
+      year: "December 2026",
+      title: "Congratulations to my students for presenting their work: Endless VR Walk - Dynamic Mapping of Limited Physical Spaces into Infinite Linear Paths",
+      source: "2026 ACM SIGGRAPH Conference",
+      href: "https://mig.siggraph.org/2026/"
+    },
+    {
       year: "October 2026",
       title: "Our team will present the panel: Artists as Architects of Future Tech: A Look at the Interdisciplinary Atunda Project.",
       source: "2026 a2ru Conference: \"How We Thrive: Arts, Health and Human Flourishing\"",
