@@ -1,5 +1,18 @@
 {
   "publications": [
+     {
+      "martinez2026endless": {
+        "title": "Endless VR Walk: Dynamic Mapping of Limited Physical Spaces into Infinite Linear Paths",
+        "author": "Martinez, Sophia and Haddix, Reagan and Haase, Miles and Barmpoutis, Angelos",
+        "booktitle": "2026 ACM SIGGRAPH Conference on Motion, Interaction and Games",
+        "year": "2026",
+        "citations": [],
+        "doi": "https://doi.org/10.48550/arXiv.2611.01495",
+        "abstract":"Natural locomotion in virtual reality (VR) can provide a more immersive and engaging experience, but the physical space required for unrestricted walking is a significant limitation. This paper presents Endless VR Walk, a system for dynamically mapping a limited physical space into an effectively infinite linear virtual path. The approach uses a recursive path-generation algorithm to construct virtual blocks in real time as the user walks, while constraining the path to the available physical area and preventing spatial overlap. We evaluate path variability under different physical-space constraints and identify the smallest space that enables diverse path configurations. The resulting framework provides a platform for applications benefiting from extended walking, including physical therapy, rehabilitation, and fitness, as well as adaptations of traditional platformer and endless-runner games in VR.",
+        "image":"assets/martinez2026endless.jpg",
+        "feature":99
+      }
+    },
     {
       "pank2026real": {
         "title": "Real-Time Computer-Assisted Afrogenic Dance Move Recognition and Analysis",
